@@ -1,0 +1,4 @@
+INSERT INTO `module admin` (`Accueil`, `Catégorie de chambre`, `Nouvelle salle`, `Page`, `Réservation`, `Utilisateurs Reg`, `Enquête`, `Recherche`, `Rapports`) VALUES ('', 'Luxe', 'Blindée', 'Balance ton texte morey', 'Chambre', 'Inscrite ou réinscrire', 'Mise a jour', 'Particulier', 'R.A.S');
+
+
+INSERT INTO `utilisateur` (`Domicile`, `À propos`, `Services`, `Chambre`, `Galerie`, `Réserver une chambre`, `Contact`, `Inscrivez-vous`, `Connexion`, `Mon compte`) VALUES ('', ' page de site Web sur nous.', 'les utilisateurs peuvent afficher les services fournis par l’organisation.', ' l’utilisateur peut voir les détails de la chambre disponible dans l’hôtel.', 'l’utilisateur peut voir la galerie de l’hôtel.', '2023-07-11', 'contactez-nous où les utilisateurs peuvent envoyer les requêtes à l’hôtel.', '2023-07-11', '2023-07-11 09:35:36', 'mettre à jour son profil, changer son mot de passe, récupérer son mot de passe');
