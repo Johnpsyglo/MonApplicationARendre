@@ -38,7 +38,7 @@ class MaConnexion{
             $requete_preparee = $this->connexionPDO->prepare($requete);
            
             /*permet de preparer identifiant et motdepasse*/
-            $requete_preparee->bindParam(":Accueillet , $Accueil, PDO::PARAM_STR);
+            $requete_preparee->bindParam(":Accueillet , $Accueillet, PDO::PARAM_STR);
 
             $requete_preparee->bindParam(":CatégorieDeChambre", $CatégorieDeChambre, PDO::PARAM_STR);
             $requete_preparee->bindParam(":NouvelleSalle", $Page, PDO::PARAM_STR);
